@@ -2,7 +2,7 @@
     <string name="app_name">e-Reserve</string>
     <string name="doctor">Γιατρός</string>
     <string name="what">Τι Ψάχνεις?</string>
-    <string name="club">Clubbing</string>
+    <string name="club">Club</string>
     <string name="lawyer">Δικηγόρος</string>
     <string name="engineer">Τεχνικός</string>
     <string name="gas_station">Βενζινάδικο</string>
@@ -17,4 +17,5 @@
     <string name="hello">Γειά σου,</string>
     <string name="start_image">start_image</string>
     <string name="search">Αναζήτηση</string>
+    <string name="tatoo">Tatoo</string>
 </resources>

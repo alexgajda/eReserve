@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EReserve">
-        <activity android:name=".activity_profile"></activity>
+        <activity android:name=".all_activities.activity_club"></activity>
+        <activity android:name=".all_activities.activity_pharmacy" />
+        <activity android:name=".all_activities.activity_tatoo" />
+        <activity android:name=".all_activities.activity_engineer" />
+        <activity android:name=".all_activities.activity_gas_station" />
+        <activity android:name=".all_activities.activity_barber" />
+        <activity android:name=".all_activities.activity_doctor" />
+        <activity android:name=".all_activities.activity_freetime" />
+        <activity android:name=".all_activities.activity_cinema" />
+        <activity android:name=".all_activities.activity_lawyer" />
+        <activity android:name=".all_activities.activity_theater" />
+        <activity android:name=".all_activities.activity_caffe" />
+        <activity android:name=".activity_profile" />
         <activity
             android:name=".activity2"
             android:screenOrientation="portrait" />
