@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="254dp"
+            android:layout_height="51dp"
+            android:gravity="center"
+            android:text="Τι Ψάχνεις?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.02" />
+
+        <Button
+            android:id="@+id/b_doctor"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/doctor"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/b_club"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Clubbing"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_barber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/b_caffe"
+            app:layout_constraintTop_toBottomOf="@+id/b_caffe" />
+
+        <Button
+            android:id="@+id/b_lawyer"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Δικηγόρος"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_engineer"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/b_Theater"
+            app:layout_constraintTop_toBottomOf="@+id/b_Theater" />
+
+        <Button
+            android:id="@+id/b_engineer"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Τεχνικός"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/b_Pharmacy"
+            app:layout_constraintTop_toBottomOf="@+id/b_Pharmacy" />
+
+        <Button
+            android:id="@+id/b_gasstation"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Βενζινάδικο"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/b_freetime"
+            app:layout_constraintTop_toBottomOf="@+id/b_freetime" />
+
+        <Button
+            android:id="@+id/b_Vet"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Κτηνίατρος"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_gasstation"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/b_cinema"
+            app:layout_constraintTop_toBottomOf="@+id/b_cinema" />
+
+        <Button
+            android:id="@+id/b_barber"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="20dp"
+            android:text="Κουρείο"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/b_doctor"
+            app:layout_constraintTop_toBottomOf="@+id/b_doctor" />
+
+        <Button
+            android:id="@+id/b_Pharmacy"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="28dp"
+            android:text="Φαρμακείο"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/b_barber"
+            app:layout_constraintTop_toBottomOf="@+id/b_barber" />
+
+        <Button
+            android:id="@+id/b_freetime"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="28dp"
+            android:text="Ελεύθερος Χρόνος"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/b_engineer"
+            app:layout_constraintTop_toBottomOf="@+id/b_engineer" />
+
+        <Button
+            android:id="@+id/b_cinema"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="28dp"
+            android:text="Cinema"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_freetime"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/b_lawyer"
+            app:layout_constraintTop_toBottomOf="@+id/b_lawyer" />
+
+        <Button
+            android:id="@+id/b_Theater"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="28dp"
+            android:text="Θέατρο"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_Pharmacy"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/b_club"
+            app:layout_constraintTop_toBottomOf="@+id/b_club" />
+
+        <Button
+            android:id="@+id/b_caffe"
+            android:layout_width="141dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="32dp"
+            android:text="Καφετέρια"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/b_doctor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/backtomain"
+            android:layout_width="63dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:background="@null"
+            android:contextClickable="true"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backarrow" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
